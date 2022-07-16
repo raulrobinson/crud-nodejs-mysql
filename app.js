@@ -9,7 +9,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-// MySQL.
+// Connection MySQL.
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
